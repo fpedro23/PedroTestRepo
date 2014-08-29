@@ -10,6 +10,6 @@
 
 @implementation Person
 
-
+@synthesize name;
 
 @end

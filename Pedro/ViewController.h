@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class Person;
 @interface ViewController : UIViewController
+@property Person *nuevaPersona;
+
 
 @end
