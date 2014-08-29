@@ -10,6 +10,7 @@
 #import "Person.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *textOut;
 
 @end
 
