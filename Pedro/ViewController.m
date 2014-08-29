@@ -15,12 +15,14 @@
 @end
 
 @implementation ViewController
+- (IBAction)buttonPressed:(id)sender {
+}
 @synthesize nuevaPersona;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    nuevaPersona = [Person init];
+    nuevaPersona = [[Person alloc] init];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
