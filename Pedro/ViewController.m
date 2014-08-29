@@ -7,16 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+@synthesize nuevaPersona;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    nuevaPersona = [Person init];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

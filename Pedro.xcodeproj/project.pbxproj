@@ -21,6 +21,7 @@
 		EB7A71D619B01DA40044F837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7A71B819B01DA40044F837 /* UIKit.framework */; };
 		EB7A71DE19B01DA40044F837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB7A71DC19B01DA40044F837 /* InfoPlist.strings */; };
 		EB7A71E019B01DA40044F837 /* PedroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7A71DF19B01DA40044F837 /* PedroTests.m */; };
+		EB7A71EB19B01EF80044F837 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7A71EA19B01EF80044F837 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EB7A71DB19B01DA40044F837 /* PedroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PedroTests-Info.plist"; sourceTree = "<group>"; };
 		EB7A71DD19B01DA40044F837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB7A71DF19B01DA40044F837 /* PedroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PedroTests.m; sourceTree = "<group>"; };
+		EB7A71E919B01EF80044F837 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EB7A71EA19B01EF80044F837 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				EB7A71C319B01DA40044F837 /* AppDelegate.h */,
+				EB7A71E919B01EF80044F837 /* Person.h */,
+				EB7A71EA19B01EF80044F837 /* Person.m */,
 				EB7A71C419B01DA40044F837 /* AppDelegate.m */,
 				EB7A71C619B01DA40044F837 /* Main.storyboard */,
 				EB7A71C919B01DA40044F837 /* ViewController.h */,
@@ -251,6 +256,7 @@
 			files = (
 				EB7A71CB19B01DA40044F837 /* ViewController.m in Sources */,
 				EB7A71C519B01DA40044F837 /* AppDelegate.m in Sources */,
+				EB7A71EB19B01EF80044F837 /* Person.m in Sources */,
 				EB7A71C119B01DA40044F837 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
