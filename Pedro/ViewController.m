@@ -9,10 +9,13 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *textOut;
 
 @end
 
 @implementation ViewController
+- (IBAction)buttonPressed:(id)sender {
+}
 
 - (void)viewDidLoad
 {
